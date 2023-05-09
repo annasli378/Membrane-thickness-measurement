@@ -1,5 +1,5 @@
 # Membrane-thickness-measurement
-Membrane thickness measurement for podocyte foot
+Automatic method of measuring the thickness of the podocyte foot membrane based on expert masks 
 
 
 # DYSK GOOGLE
