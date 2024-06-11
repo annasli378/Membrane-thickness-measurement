@@ -9,6 +9,7 @@ The goal of the project was to automatically determine the thickness of the memb
 
 Then, based on the skeletons of the corrected masks, the measurement locations were determined and the intersections of the incisal skeletons at the points and edges of the masks were measured. These distances determined the mask widths measured at the given points.
 
+# Methods
  ## GetMask
  A function responsible for extracting an interesting mask from an image, then smoothing the jagged edges and flooding the small holes.
  
@@ -18,8 +19,8 @@ Then, based on the skeletons of the corrected masks, the measurement locations w
  ## GetWidthsInc
 A function that measures width at selected points in the skeleton using incisors. It iteratively searches for the points of intersection of the secant determined at a given point and the edge of the diaphragm, additionally checking the correctness of each result.
 
-  ## GetWidthsBwd
+ ## GetWidthsBwd
   A function that determines the width of the membrane at selected points using the bwdist() function available in the Matlab environment.
   
- ## demo
- Example file
+# demo
+ Example file - how to use to calcualte results
